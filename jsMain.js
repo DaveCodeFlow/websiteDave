@@ -26,9 +26,9 @@ const mixes = [
    {
     title: "SOLID – Episode 04",
     isLimited: true,
-    date: "2026-04-24",
+    date: "2026-06-11",
     mixcloudUrl:
-      "https://www.mixcloud.com/DJ_Dave_K/solid-4-steady-beats-strong-flow-special-hard-trance-hardcore-edition/",
+      "https://www.mixcloud.com/DJ_Dave_K/solid-steady-beats-strong-flow-episode-04/",
   },
 ];
 
@@ -57,7 +57,6 @@ sortedMixes.forEach((mix, index) => {
   }
 
   section.innerHTML = `
-  ${mix.isLimited ? '<div class="badge">⏳ Available for a limited time</div>' : ''}
   <h2>${mix.title}</h2>
   <span class="mix-date">${mix.date}</span>
   <div class="player-wrapper">
